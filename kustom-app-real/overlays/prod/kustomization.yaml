@@ -8,4 +8,5 @@ patches:
 
 configMapGenerator:
 - name: mykustom-map
+  behavior: replace
   env: config.properties
